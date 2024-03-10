@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("chrome-extension://@{extensionId}/assets/fonts/Poppins/Poppins-Medium.ttf");
+}
