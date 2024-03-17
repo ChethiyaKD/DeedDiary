@@ -13,8 +13,15 @@
     "64": "./assets/icons/64.png",
     "128": "./assets/icons/128.png"
   },
-  "permissions": ["storage"],
+
+  "permissions": ["storage", "unlimitedStorage"],
   "chrome_url_overrides": {
     "newtab": "newTab.html"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/images/*", "assets/fonts/*", "assets/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }

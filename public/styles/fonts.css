@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Poppins Regular";
+  src: url(chrome-extension://__MSG_@@extension_id__/assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins Semibold";
+  src: url(chrome-extension://__MSG_@@extension_id__/assets/fonts/Poppins/Poppins-Semibold.ttf);
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url(chrome-extension://__MSG_@@extension_id__/assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(chrome-extension://__MSG_@@extension_id__/assets/fonts/BebasNeue/BebasNeue-Regular.ttf);
+}

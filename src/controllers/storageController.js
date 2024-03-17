@@ -1,8 +1,8 @@
-export const saveToStorage = obj => new Promise(resolve => {
+export const saveToLocalStorage = obj => new Promise(resolve => {
     chrome.storage.local.set(obj, res => resolve(true));
 })
 
-export const getFromStorage = arr => new Promise(resolve => {
+export const getFromLocalStorage = arr => new Promise(resolve => {
     chrome.storage.local.get(arr, res => resolve(res));
 })
 

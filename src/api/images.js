@@ -6,7 +6,7 @@ export const getImages = async () => {
         let config = {
             method: 'get',
             maxBodyLength: Infinity,
-            url: 'https://api.unsplash.com/search/photos?page=1&query=wallpaper&orientation=landscape',
+            url: 'https://api.unsplash.com/search/photos?page=1&query=wallpaper nature&orientation=landscape',
             headers: {
                 'Authorization': 'Client-ID VcM2I5FM4FhtpvwaCwNsQrKMvXCANgd1ORDAExfRLk8'
             }
