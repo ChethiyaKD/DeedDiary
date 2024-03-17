@@ -9,8 +9,7 @@ const Reminder = () => {
         On this day
       </div>
       <div className={styles.goodDeed}>
-        There were no transportation services working today. My father and I
-        gave a lift to a couple of guys while we’re on our way home There were no transportation services working today. My father and I
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat lacinia urna, a vestibulum nisl scelerisque eget. Sed volutpat sapien turpis, ut congue velit porta non. Etiam feugiat, orci eget tempus rutrum
       </div>
     </div>
   );
